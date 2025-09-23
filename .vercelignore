@@ -1,0 +1,18 @@
+Ignore Supabase functions directory to prevent auto-detection
+supabase/
+backup-server/
+api/
+
+Ignore other unnecessary files for deployment
+*.md
+guidelines/
+DEPLOYMENT_*.md
+FINAL_DEPLOY_*.md
+LAUNCH_*.md
+QUICK_*.md
+README.md
+Attributions.md
+integration-guide.md
+figma-integration-template.tsx
+deploy.sh
+netlify.toml
