@@ -24,3 +24,4 @@ export default defineConfig({
     include: ['react', 'react-dom', '@supabase/supabase-js', 'lucide-react', 'recharts']
   }
 })
+
