@@ -1,9 +1,10 @@
-Ignore Supabase functions directory to prevent auto-detection
+Ignore all backend directories to prevent auto-detection
 supabase/
 backup-server/
+old-backend/
 api/
 
-Ignore other unnecessary files for deployment
+Ignore deployment and documentation files
 *.md
 guidelines/
 DEPLOYMENT_*.md
@@ -16,3 +17,8 @@ integration-guide.md
 figma-integration-template.tsx
 deploy.sh
 netlify.toml
+
+Ignore config files not needed for deployment
+tsconfig.node.json
+postcss.config.js
+eslint.config.js
