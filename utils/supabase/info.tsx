@@ -1,2 +1,2 @@
-// Legacy file - redirecting to static config
+// Static configuration - no environment variables
 export { projectId, publicAnonKey } from './config';
