@@ -14,11 +14,9 @@ app.use('*', cors({
 }));
 app.use('*', logger(console.log));
 
-// Supabase client
-const supabase = createClient(
-  Deno.env.get('SUPABASE_URL')!,
-  Deno.env.get('SUPABASE_SERVICE_ROLE_KEY')!,
-);
+// Supabase client with fallback values
+const supabaseUrl = Deno.env.get('SUPABASE_URL') || 'https://mkknfgjcrvzklfqfuvjb.supabase.co';
+const supabaseServiceKey = Deno.env.get('SUPABASE_SERVICE_ROLE_KEY') || 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1ra25mZ2pjcnZ6a2xmcWZ1dmpiIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc1ODU4Nzc5MSwiZXhwIjoyMDc0MTYzNzkxfQ.g6zW9hcZJ-D8xJoQmhTm8vYX2z1A0nF5qXwJcS9pL4E';
 
 // Regulatory Feeds Data
 const sampleFeeds = [
