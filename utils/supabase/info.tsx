@@ -1,3 +1,6 @@
-// Environment variables for deployment
-export const projectId = "mkknfgjcrvzklfqfuvjb"
-export const publicAnonKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1ra25mZ2pjcnZ6a2xmcWZ1dmpiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTg1ODc3OTEsImV4cCI6MjA3NDE2Mzc5MX0.lJ3Sz0OL3XJi6iC7q1-yLKMADqVGTJ0TJirZP60PpuI
+// Static configuration for Vercel deployment
+const SUPABASE_PROJECT_ID = "mkknfgjcrvzklfqfuvjb";
+const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1ra25mZ2pjcnZ6a2xmcWZ1dmpiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTg1ODc3OTEsImV4cCI6MjA3NDE2Mzc5MX0.lJ3Sz0OL3XJi6iC7q1-yLKMADqVGTJ0TJirZP60PpuI";
+
+export const projectId = SUPABASE_PROJECT_ID;
+export const publicAnonKey = SUPABASE_ANON_KEY;
