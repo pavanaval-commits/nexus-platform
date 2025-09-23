@@ -1,3 +1,2 @@
-// Legacy file - replaced by client.ts
-// Redirecting imports to the new static configuration
-export { projectId, publicAnonKey } from './client';
+// Legacy file - redirecting to static config
+export { projectId, publicAnonKey } from './config';
