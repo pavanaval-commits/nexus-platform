@@ -19,6 +19,5 @@ deploy.sh
 netlify.toml
 
 Ignore config files not needed for deployment
-tsconfig.node.json
 postcss.config.js
 eslint.config.js
