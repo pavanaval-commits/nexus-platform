@@ -1,0 +1,59 @@
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js
+# Yarn/Pnpm debug logs
+pnpm-debug.log*
+
+# Build outputs (use no leading slash so nested packages are covered)
+dist/
+build/
+*.tsbuildinfo
+
+# Environment variables (don't commit secrets)
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# IDE/editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Caches
+.cache/
+.parcel-cache/
+.eslintcache
+.turbo/
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Vercel
+.vercel/
+
+# Framework-specific (uncomment if relevant)
+# .next/
+# out/
+# .nuxt/
+# .svelte-kit/
+# .expo/
