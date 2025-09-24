@@ -57,3 +57,4 @@ coverage/
 # .nuxt/
 # .svelte-kit/
 # .expo/
+.vercel
